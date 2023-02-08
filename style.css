@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.pri-btn{
+    padding: 15px 25px;
+    background-color: #F15B22;
+    border: 0;
+    border-radius: 5px;
+    color: #ffffff;
+ 
+ }
+
+ /* Header Section */
+
+.header{
+    background-image: url(images/banner/banner1.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.header-title-area{
+   
+    padding-top: 216px;
+    padding-bottom: 160px;
+    position: absolute;
+    right: 150px;
+   
+}
+
+.header-title{
+    width: 525px;
+    height: 228px;
+    font-size: 65px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+.header-des{
+    width: 495px;
+    height: 80px;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 24px;
+}
+
+/* about */
+
+.about{
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.my-img img{
+    width: 9git 0%;
+}
+
+.about-des-info{
+    width: 415px;
+}
