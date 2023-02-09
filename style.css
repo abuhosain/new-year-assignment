@@ -8,7 +8,12 @@
     border: 0;
     border-radius: 5px;
     color: #ffffff;
+    cursor: pointer;
  
+ }
+
+ .icon-img{
+    width: 5%;
  }
 
  /* Header Section */
@@ -112,14 +117,16 @@
     padding-left: 120px;
     margin-top: 50px;
     margin-bottom: 150px;
+   
 }
 
 .positive{
     
-    width: 1075px;
+    width: 850px;
     height: 300px;
-     background:linear-gradient(rgba(0,0,0,0.5),#009688) ,url(images/watch.png);
-     padding-left: 70px;
+    background: linear-gradient(rgba(0,0,0,0.5),#a98567) ,url(images/watch.png);
+    margin: 0 auto;
+    padding-left: 35px;
 }
 
 .positive h1{
@@ -131,5 +138,71 @@
 }
 
 
+footer{
+    background-color: #151414;
+    color: #ffffff;
+}
 
+.container{
+    width: 1140px;
 
+}
+
+.footer-info{
+    display: flex;
+   
+    padding: 110px 130px 240px 240px;
+}
+.feature{
+    width: 500px;
+    padding-right: 199px;
+}
+
+.feature h1{
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+.feature p{
+    font-weight: 400;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+
+.feature ul{
+    list-style: none;
+    padding-bottom: 20px;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+}
+
+.icon{
+    padding: 6px;
+}
+
+.subscribe{
+    display: block;
+    margin-top: 45px;
+}
+
+.subscribe h1{
+    font-size: 35px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+.subscribe input{
+    background: #151414;
+    border: 0.5px solid #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 3px;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.subscribe button{
+    margin-top: 15px;
+}
